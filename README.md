@@ -7,26 +7,27 @@ Each project demonstrates practical applications of HTML, CSS, JavaScript, and t
 
 ## 📂 Repository Structure
 
+```text
 ITI-Bootstrap/
 │
 ├── Day1/
-│ ├── Portfolio-Template/
-│ │ ├── index.html
-│ │ ├── style.css
-│ │ ├── script.js
-│ │ └── images/
-│ │
-│ └── Login-Register-Forms/
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
+│   ├── Portfolio-Template/
+│   │   ├── index.html
+│   │   ├── style.css
+│   │   ├── script.js
+│   │   └── images/
+│   │
+│   └── Login-Register-Forms/
+│       ├── index.html
+│       ├── style.css
+│       └── script.js
 │
 └── Day2/
-└── Educational-Website-Home-Page/
-├── index.html
-├── style.css
-├── script.js
-└── images/
+    └── Educational-Website-Home-Page/
+        ├── index.html
+        ├── style.css
+        ├── script.js
+        └── images/
 
 
 ---
