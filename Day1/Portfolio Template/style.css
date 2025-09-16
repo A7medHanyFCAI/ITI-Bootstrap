@@ -1,0 +1,243 @@
+
+:root {
+    --dark-bg: #121212;
+    --darker-bg: #0a0a0a;
+    --card-bg: #1e1e1e;
+    --primary: #bb86fc;
+    --primary-variant: #a66afc;
+    --text-primary: #f8f9fa;
+    --text-secondary: #b3b3b3;
+}
+
+body {
+    background-color: var(--dark-bg);
+    color: var(--text-primary);
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+
+.navbar {
+    background-color: var(--darker-bg);
+    padding: 1rem 2rem;
+}
+
+.navbar-brand {
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.nav-link {
+    color: var(--text-secondary) ;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--primary) ;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+
+.myBtn {
+    background-color: var(--primary);
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.myBtn:hover {
+    background-color: var(--primary-variant);
+     transform: translateY(-2px);
+}
+
+
+.col-lg-6{
+    /* border: white 2px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro{
+    display: flex;
+    flex-direction:column ;
+    align-items: start;
+    width: 70%;
+
+    /* border:2px white solid; */
+}
+
+.intro .display-4{
+    color:var(--primary);
+}
+
+.intro .display-6{
+    color: var(--text-primary);
+}
+
+.project-btn, .resume {
+    margin: 1rem 0.5rem;
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.project-btn,.resume {
+    background-color: var(--primary) !important;
+    color: #000;
+    border: none;
+}
+
+ .project-btn:hover {
+    
+    background-color: var(--primary-variant);
+    transform: translateY(-2px);
+} 
+.resume:hover{
+    background-color: var(--primary-variant);
+    transform: translateY(-2px);
+}
+
+
+.myContainer{
+    background-color: var(--darker-bg);
+    border-radius: 15px;
+}
+
+.display-6{
+    color:var(--primary-variant);
+}
+
+
+
+.skill  img{
+    width: 3rem;
+}
+
+
+
+.skills .col {
+    margin: 1rem 0;
+    transition:  0.3s ease;
+}
+
+.skills .col:hover {
+    transform: translateY(-5px);
+}
+
+
+.projects{
+    background-color: var(--darker-bg);
+    border-radius: 15px;
+   
+}
+
+
+.card-body{
+    background-color: var(--text-secondary);
+}
+.project{
+    transition:  0.3s ease;
+}
+.project:hover{
+    transform: translateY(-5px);
+}
+
+.val{
+    background-color: var(--text-secondary);
+    border:1px solid var(--darker-bg);
+    transition:  0.3s ease;
+}
+.val:hover{
+    background-color: grey;
+}
+
+
+/* Contact Section Styles */
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  background-color: var(--primary);
+  color: var(--dark-bg);
+  transition: all 0.3s ease;
+}
+
+.contact-item:hover .contact-icon {
+  background-color: var(--primary-variant);
+  transform: scale(1.1);
+}
+
+.contact-item {
+  transition: transform 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateX(5px);
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--card-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: var(--primary);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    background: var(--primary);
+    color: #000;
+    transform: translateY(-3px);
+}
+
+.form-control {
+  background-color: var(--card-bg);
+  border: 1px solid #333;
+  color: var(--text-primary);
+  padding: 12px 15px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  background-color: var(--card-bg);
+  border-color: var(--primary);
+  color: var(--text-primary);
+  box-shadow: 0 0 0 0.25rem rgba(187, 134, 252, 0.25);
+}
+
+.form-label {
+  color:var(--text-primary) ; 
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+input::placeholder {
+    color:var(--text-secondary) !important; 
+    
+}
+
+textarea::placeholder {
+    color:var(--text-secondary) !important; 
+    
+}

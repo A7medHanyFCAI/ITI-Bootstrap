@@ -1,0 +1,24 @@
+:root{
+    --primary-color:#4e73df;
+    --background1:#6a11cb;
+    --background2:#2575fc;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, var(--background1) 0%, var(--background2) 100%);
+}
+.form-container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.header{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 5px 0px;
+  
+}
