@@ -34,17 +34,6 @@ ITI-Bootstrap/
 
 ## 🚀 Live Demos (GitHub Pages)
 
-- **Day 1**
-  - [Portfolio Template](https://your-username.github.io/ITI-Bootstrap/Day1/Portfolio-Template/)  
-  - [Login & Register Forms](https://your-username.github.io/ITI-Bootstrap/Day1/Login-Register-Forms/)
-
-- **Day 2**
-  - [Educational Website Home Page](https://your-username.github.io/ITI-Bootstrap/Day2/Educational-Website-Home-Page/)
-
----
-
-## 📌 Projects Overview
-
 ### **Day 1**
 1. **Portfolio Template**  
    A responsive personal portfolio template with sections for introduction, skills, and projects.  
